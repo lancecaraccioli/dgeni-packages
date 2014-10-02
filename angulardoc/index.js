@@ -7,7 +7,7 @@ var Package = require('dgeni').Package;
 
 // Create and export a new Dgeni package called dgeni-example. This package depends upon
 // the jsdoc and nunjucks packages defined in the dgeni-packages npm module.
-module.exports = new Package('angularjs', [
+module.exports = new Package('angulardoc', [
   require('dgeni-packages/ngdoc'),
   require('dgeni-packages/nunjucks'),
   require('dgeni-packages/examples')
